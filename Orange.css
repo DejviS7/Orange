@@ -7,3 +7,278 @@
 You are NOT allowed using this file without creator's permission!
 */
 
+/* Icons */
+
+.icon-rcsmenu-main {
+    background:url("http://i.imgur.com/aGlAN0b.png") !important;
+}
+
+.icon-rcsmenu-notifications {
+    background:url("http://i.imgur.com/51IJrvD.png") !important;
+}
+
+.icon-rcsmenu-styling {
+    background:url("http://i.imgur.com/g6EnM2n.png") !important;
+}
+
+.icon-rcsmenu-customize {
+    background:url("http://i.imgur.com/jaTxmBz.png") !important;
+}
+
+.icon-rcsmenu-moderation {
+    background:url("http://i.imgur.com/aVeZ1sI.png") !important;
+}
+
+.icon-rcsmenu-settings {
+    background:url("http://i.imgur.com/pEY2RL6.png") !important;
+}
+
+.userlj {
+    background: url("http://i.imgur.com/JXHliFt.png") 314px -349px;
+    position: absolute; width: 15px; height: 15px; top: 7px;  left: 7px; 
+}
+
+.icon { 
+    background-image: url("http://i.imgur.com/0ezVC71.png");
+}
+
+/* Admin Icons */
+
+.icon-chat-admin {
+    background: url("http://i.imgur.com/KVF4ubP.png") !important;
+    background-position: center;
+}
+
+.message.from-admin > .icon {
+    background: url("http://i.imgur.com/KVF4ubP.png") !important;
+    background-position: center;
+}
+
+.emote.from-admin > .icon {
+    background: url("http://i.imgur.com/KVF4ubP.png") !important;
+    background-position: center;
+}
+
+.mention.from-admin > .icon {
+    background: url("http://i.imgur.com/KVF4ubP.png") !important;
+    background-position: center;
+}
+
+/* Brand Ambassadord Icons */
+
+.icon-chat-ambassador {
+    background: url("http://i.imgur.com/yIvOwcg.png") !important;
+    background-position: center;
+}
+
+.message.from-ambassador > .icon {
+    background: url("http://i.imgur.com/yIvOwcg.png") !important;
+    background-position: center;
+}
+
+.emote.from-ambassador > .icon {
+    background: url("http://i.imgur.com/yIvOwcg.png") !important;
+    background-position: center;
+}
+
+.mention.from-ambassador > .icon {
+    background: url("http://i.imgur.com/yIvOwcg.png") !important;
+    background-position: center;
+}
+
+/* Host Icons */
+
+.icon-chat-host {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+.message.from-host > .icon {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+.emote.from-host > .icon {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+.mention.from-host > .icon {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+/* Cohost Icons */
+
+.icon-chat-cohost {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+.message.from-cohost > .icon {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+.emote.from-cohost > .icon {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+.mention.from-cohost > .icon {		
+    background-image: url("http://i.imgur.com/ZoKTl3k.png") !important;		
+    background-position: center;		
+}
+
+/* Manager Icons */
+
+.icon-chat-manager {		
+    background-image: url("http://i.imgur.com/RfozMKi.png") !important;		
+    background-position: center;		
+}
+
+.message.from-manager > .icon {		
+    background-image: url("http://i.imgur.com/RfozMKi.png") !important;		
+    background-position: center;		
+}
+
+.emote.from-manager > .icon {		
+    background-image: url("http://i.imgur.com/RfozMKi.png") !important;		
+    background-position: center;		
+}
+
+.mention.from-manager > .icon {		
+    background-image: url("http://i.imgur.com/RfozMKi.png") !important;		
+    background-position: center;		
+}
+
+/* Bouncer Icons */
+
+.icon-chat-bouncer {
+    background-image: url("http://i.imgur.com/KnqjbmM.png") !important;
+    background-position: center;
+}
+
+.message.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/KnqjbmM.png") !important;
+    background-position: center;
+}
+
+.emote.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/KnqjbmM.png") !important;
+    background-position: center;
+}
+
+.mention.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/KnqjbmM.png") !important;
+    background-position: center;
+}
+
+/* Resident Dj Icons */
+
+.icon-chat-dj {
+    background-image: url("http://i.imgur.com/7uCjDOp.png") !important;
+    background-position: center;
+}
+
+.message.from-residentdj > .icon {
+    background-image: url("http://i.imgur.com/7uCjDOp.png") !important;
+    background-position: center;
+}
+
+.emote.from-residentdj > .icon {
+    background-image: url("http://i.imgur.com/7uCjDOp.png") !important;
+    background-position: center;
+}
+
+.mention.from-residentdj > .icon {
+    background-image: url("http://i.imgur.com/7uCjDOp.png") !important;
+    background-position: center;
+}
+
+/* Subscriber Icons */
+
+.icon-chat-subscriber {
+    background-image: url("http://i.imgur.com/u9VY4kU.png") !important;
+    background-position: center;
+}
+
+.message.from-subscriber  > .icon {
+    background-image: url("http://i.imgur.com/u9VY4kU.png") !important;
+    background-position: center;
+}
+
+.emote.from-subscriber  > .icon {
+    background-image: url("http://i.imgur.com/u9VY4kU.png") !important;
+    background-position: center;
+}
+
+.mention.from-subscriber  > .icon {
+    background-image: url("http://i.imgur.com/u9VY4kU.png") !important;
+    background-position: center;
+}
+
+#user-rollover .actions .giftsub i {
+	  background-image: url("http://i.imgur.com/u9VY4kU.png") !important;
+	  background-position: center;
+}
+
+#user-rollover .meta.subscriber .status i {
+	  background-image: url("http://i.imgur.com/u9VY4kU.png") !important;
+	  background-position: center;
+}
+
+/* SilverSubscriber Icons */
+
+.icon-chat-subscriber.silver {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+.message.from-subscriber.silver  > .icon {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+.emote.from-subscriber.silver  > .icon {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+.mention.from-subscriber.silver  > .icon {
+    background-image: url("http://i.imgur.com/X676TJf.png") !important;
+    background-position: center;
+}
+
+#user-rollover .meta.subscriber.silver .status i {
+	  background-image: url("http://i.imgur.com/X676TJf.png") !important;
+	  background-position: center;
+}
+
+#user-store .badges .grid .cell:hover>.top {
+    background: url("http://i.imgur.com/oCPDilR.jpg") !important;
+}
+
+#user-store .badges .grid .cell .top {
+	background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
+}
+
+#user-inventory .badges .grid .cell:hover {
+    background: url("http://i.imgur.com/oCPDilR.jpg") !important;
+}
+
+#user-inventory .badges .grid .cell.selected {
+	background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
+}
+
+#user-inventory .badges .grid .cell {
+	background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
+}
+
+#user-inventory .grid .cell:hover>.top {
+    background: url("http://i.imgur.com/oCPDilR.jpg") !important;
+}
+
+#user-inventory .grid .cell .top {
+    background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
+}
