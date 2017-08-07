@@ -265,6 +265,10 @@ You are NOT allowed using this file without creator's permission!
     background: linear-gradient(135deg, #FF6300 0, #000000 13%, #0a0a0a 100%) !important;
 }
 
+#chat .from.staff .un {
+    color: #FF6300;
+}
+
 /* Admin Colors */
 
 .ul-admin { 
@@ -1233,12 +1237,10 @@ You are NOT allowed using this file without creator's permission!
 
 #footer-user.showing .back  {
         background: #000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .is-guest #footer-user .signup {
         background: #000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 #footer-user.showing .back:hover {
@@ -1366,17 +1368,14 @@ You are NOT allowed using this file without creator's permission!
 
 .dialog {
 	background: rgb(0, 0, 0) !important;
-        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 #dialog-confirm {
 	background-color: rgb(0, 0, 0) !important;
-        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
 }
 
 .dialog .dialog-frame .button .submit {
 	background: #000 !important;
-        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .dialog.no-submit .button.submit {
@@ -1836,7 +1835,7 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .cm.moderation {
-	color: #00FF00 !important;
+	color: #FF6300 !important;
 }
 
 #chat .mention {
@@ -2029,22 +2028,21 @@ You are NOT allowed using this file without creator's permission!
 
 .tab-menu button.selected {
 	background:#000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .dropdown {
 	background:#000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .dropdown dt {
 	background:#000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .dropdown dd {
 	background:#000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .dropdown dd .row:hover {
@@ -2054,7 +2052,7 @@ You are NOT allowed using this file without creator's permission!
 
 ::-webkit-scrollbar-thumb {
 	background:#000;
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
 }
 
 .jspDrag {
@@ -2242,7 +2240,6 @@ You are NOT allowed using this file without creator's permission!
 }
 
 .user-content.communities button {
-	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
         background: #000000;
 }
 
