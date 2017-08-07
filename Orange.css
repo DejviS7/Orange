@@ -609,6 +609,14 @@ You are NOT allowed using this file without creator's permission!
     color: #FFEE00;
 }
 
+#user-rollover .meta.subscriber .status span {
+    color: #FFEE00;
+}
+
+#user-store .grid .cell .price .label.only {
+    color: #FFEE00;
+}
+
 /* Silver Subscriber Colors */
 
 .ul-subscriber.silver { 
@@ -990,88 +998,6 @@ You are NOT allowed using this file without creator's permission!
      box-shadow: 0px 0px 18px -4px #FF6300 inset;
 }
 
-/* Room */
-
-#room-bar * {
-          font-weight: lighter !important;
-}
-
-#now-playing-bar * {
-          font-weight: lighter !important;
-}
-
-#room-bar span {
-          font-size: 20px !important;
-}
-
-#now-playing-dj span {
-          font-size: 20px !important;
-}
-
-#now-playing-media span {
-          font-size: 20px !important;
-}
-
-#room-bar:hover > #room-name {
-          opacity: 0 !important;
-          transition: opacity 0.25s !important;
-}
-
-#room-bar > #room-host {
-          opacity: 0 !important;
-          transition: opacity 0.25s !important;
-}
-
-#now-playing-bar > #now-playing-dj {
-          opacity: 0 !important;
-          transition: opacity 0.25s !important;
-}
-
-#now-playing-bar:hover > #now-playing-media {
-         opacity: 0 !important;
-         transition: opacity 0.25s !important;
-}
-
-#room-bar > #room-name {
-         opacity: 1 !important;
-         transition: opacity 0.25s !important;
-         transition-delay: 0.25s !important;
-}
-
-#room-bar:hover > #room-host {
-         opacity: 1 !important;
-         transition: opacity 0.25s !important;
-         transition-delay: 0.25s !important;
-}
-
-#now-playing-bar:hover > #now-playing-dj {
-         opacity: 1 !important;
-         transition: opacity 0.25s !important;
-         transition-delay: 0.25s !important;
-}
-
-#now-playing-bar > #now-playing-media {
-         opacity: 1 !important;
-         transition: opacity 0.25s !important;
-         transition-delay: 0.25s !important;
-}
-
-#room-bar > #room-name {
-         margin-top: 7px !important;
-}
-
-#now-playing-bar > #now-playing-media {
-         margin-top: 7px !important;
-}
-
-#room-bar > #room-host {
-         margin-top: -15px !important;
-}
-
-#now-playing-bar > #now-playing-dj {
-         margin-top: -15px !important;
-}
-
 .dark-label {
 	color: #fff;
 	font-weight: bold;
@@ -1138,46 +1064,6 @@ You are NOT allowed using this file without creator's permission!
 
 #footer #your-next-media {
          transition: all .5s ease-in-out;
-}
-
-#footer #your-active-playlist {
-         transition: all .5s ease-in-out;
-}
-
-#footer #your-next-media {
-         opacity: 1;
-}
-
-#footer .bar-button:hover #your-active-playlist {
-         opacity: 1;
-}
-
-#footer #your-active-playlist {
-         opacity: 0;
-}
-
-#footer .chevron {
-         opacity: 0;
-}
-
-#footer .bar-button:not(.no-playlist):hover #your-next-media {
-         opacity: 0;
-}
-
-#footer #your-next-media {
-         left: 0px !important; top: 0;
-}
-
-#footer #your-active-playlist {
-         top: -54px;
-}
-
-#footer .bar-button:not(.no-playlist):hover #your-active-playlist {
-         top: 0px;
-}
-
-#footer .bar-button:not(.no-playlist):hover #your-next-media {
-         top: 54px;
 }
 
 #playlist-button {
