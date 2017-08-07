@@ -1,0 +1,45 @@
+{  
+   "room":"Párty Music Room CZ/SK",
+   "author":"ĐejviS",
+   "icon":null,
+   "css":"https://rawgit.com/DejviS7/Orange/master/Orange.css",
+   "rules":{  
+      "allowAutorespond":true,
+      "allowAutowoot":true,
+      "allowAutojoin":true,
+      "allowAutograb":true,
+      "allowSmartVote":true,
+      "allowEmotes":true,
+      "allowShowingMehs":true,
+      "forceSmartVote":false
+   },
+   "ccc":{  
+      "admin": "#FF6300",
+      "ambassador": "#FF6300",
+      "host": "#FF6300",
+      "cohost": "#FF6300",
+      "manager": "#FF6300",
+      "bouncer": "#FF6300",
+      "rdj": "#FF6300",
+      "subscriber": "#FFEE00",
+      "silversubscriber": "#DEDEDE",
+      "friend": null,
+      "user": null
+   },
+   "images":{  
+      "background": "http://i.imgur.com/zXS3b2j.png",
+      "playback": "http://i.imgur.com/LDouM4w.png",
+      "admin": "http://i.imgur.com/KVF4ubP.png",
+      "ambassador": "http://i.imgur.com/yIvOwcg.png",
+      "host": "http://i.imgur.com/ZoKTl3k.png",
+      "cohost": "http://i.imgur.com/ZoKTl3k.png",
+      "manager": "http://i.imgur.com/RfozMKi.png",
+      "bouncer": "http://i.imgur.com/KnqjbmM.png",
+      "rdj": "http://i.imgur.com/7uCjDOp.png",
+      "subscriber": "http://i.imgur.com/u9VY4kU.png",
+      "silversubscriber": "http://i.imgur.com/X676TJf.png"
+   },
+   "emotes":{  
+      "emote_name":null
+   }
+}
