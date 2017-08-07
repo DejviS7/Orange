@@ -255,34 +255,6 @@ You are NOT allowed using this file without creator's permission!
 	  background-position: center;
 }
 
-#user-store .badges .grid .cell:hover>.top {
-    background: url("http://i.imgur.com/oCPDilR.jpg") !important;
-}
-
-#user-store .badges .grid .cell .top {
-	background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
-}
-
-#user-inventory .badges .grid .cell:hover {
-    background: url("http://i.imgur.com/oCPDilR.jpg") !important;
-}
-
-#user-inventory .badges .grid .cell.selected {
-	background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
-}
-
-#user-inventory .badges .grid .cell {
-	background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
-}
-
-#user-inventory .grid .cell:hover>.top {
-    background: url("http://i.imgur.com/oCPDilR.jpg") !important;
-}
-
-#user-inventory .grid .cell .top {
-    background: url("http://i.imgur.com/DgpS3gd.jpg") !important;
-}
-
 /* Staff Colors */
 
 .is-staff .name {
@@ -1014,3 +986,1955 @@ You are NOT allowed using this file without creator's permission!
      box-shadow: 0px 0px 18px -4px #FF6300 inset;
 }
 
+/* Room */
+
+#room-bar * {
+          font-weight: lighter !important;
+}
+
+#now-playing-bar * {
+          font-weight: lighter !important;
+}
+
+#room-bar span {
+          font-size: 20px !important;
+}
+
+#now-playing-dj span {
+          font-size: 20px !important;
+}
+
+#now-playing-media span {
+          font-size: 20px !important;
+}
+
+#room-bar:hover > #room-name {
+          opacity: 0 !important;
+          transition: opacity 0.25s !important;
+}
+
+#room-bar > #room-host {
+          opacity: 0 !important;
+          transition: opacity 0.25s !important;
+}
+
+#now-playing-bar > #now-playing-dj {
+          opacity: 0 !important;
+          transition: opacity 0.25s !important;
+}
+
+#now-playing-bar:hover > #now-playing-media {
+         opacity: 0 !important;
+         transition: opacity 0.25s !important;
+}
+
+#room-bar > #room-name {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#room-bar:hover > #room-host {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#now-playing-bar:hover > #now-playing-dj {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#now-playing-bar > #now-playing-media {
+         opacity: 1 !important;
+         transition: opacity 0.25s !important;
+         transition-delay: 0.25s !important;
+}
+
+#room-bar > #room-name {
+         margin-top: 7px !important;
+}
+
+#now-playing-bar > #now-playing-media {
+         margin-top: 7px !important;
+}
+
+#room-bar > #room-host {
+         margin-top: -15px !important;
+}
+
+#now-playing-bar > #now-playing-dj {
+         margin-top: -15px !important;
+}
+
+.dark-label {
+	color: #fff;
+	font-weight: bold;
+}
+
+#room-settings .general-settings {
+	border-left:1px solid rgb(255, 99, 0) !important;
+}
+
+#room-settings-menu .item.selected {
+	background: rgb(0, 0, 0) !important;
+}
+
+#room-settings .general-settings .panel .title {
+        color: #FFFFFF;
+}
+
+#room-settings .general-settings .edit span {
+        color: #FFFFFF;
+}
+
+#room-settings .general-settings .option .title {
+        color: #FFFFFF;
+}
+
+#room-name .bar-value {
+        color: #FF6300;
+        text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+#room-host .username {
+       color: #FF6300;
+       text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+#room-settings .general-settings .option button {
+      position: relative;
+      float: left;
+      width: 45%;
+      height: 39px;
+      background: #000000;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-family: "Open Sans",sans-serif;
+      cursor: default;
+}
+
+#room-settings .general-settings .description .value {
+      overflow-x: hidden;
+      height: 235px;
+      overflow-y: hidden;
+}
+
+/* Footer */
+
+#footer #iosbadge-menu {
+    display: none !important;
+}
+
+#footer #androidbadge-menu {
+    display: none !important;
+}
+
+#footer #your-next-media {
+         transition: all .5s ease-in-out;
+}
+
+#footer #your-active-playlist {
+         transition: all .5s ease-in-out;
+}
+
+#footer #your-next-media {
+         opacity: 1;
+}
+
+#footer .bar-button:hover #your-active-playlist {
+         opacity: 1;
+}
+
+#footer #your-active-playlist {
+         opacity: 0;
+}
+
+#footer .chevron {
+         opacity: 0;
+}
+
+#footer .bar-button:not(.no-playlist):hover #your-next-media {
+         opacity: 0;
+}
+
+#footer #your-next-media {
+         left: 0px !important; top: 0;
+}
+
+#footer #your-active-playlist {
+         top: -54px;
+}
+
+#footer .bar-button:not(.no-playlist):hover #your-active-playlist {
+         top: 0px;
+}
+
+#footer .bar-button:not(.no-playlist):hover #your-next-media {
+         top: 54px;
+}
+
+#playlist-button {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+#playlist-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.inventory.button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.badge.button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 255, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.store.button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.profile.button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+.settings.button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: rgb(0, 0, 0) !important;
+}
+
+#footer  {
+	background-color:#000;
+}
+
+#footer-user .info {
+	top: -60px;
+	height: 60px;
+	background: rgba(0,0,0,0.8) !important;
+	border-top: 1px solid rgb(255, 99, 0) !important;
+	border-left: 1px solid rgb(255, 99, 0) !important;
+	border-right: 1px solid rgb(255, 99, 0) !important;
+	border-radius: 5px 5px 0px 0px;
+	left: -2px;
+}
+
+#footer-user .info .bar .progress {
+	background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#footer-user.showing .back  {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.is-guest #footer-user .signup {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#footer-user.showing .back:hover {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.is-guest #footer-user .signup:hover {
+        background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#footer-user .buttons .button.settings .icon {
+	transition:0.5s;
+}
+
+#footer-user .buttons .button.settings:hover .icon {
+	transform: rotate(360deg);
+}
+
+#footer-user .buttons {
+  box-shadow: 0px -16px 23px -18px rgb(255, 99, 0);
+  top: 0px;
+  left: 1px;
+  box-shadow: 0px 11px 12px -11px rgb(255, 99, 0) inset;
+  -moz-box-shadow: 0px 11px 12px -11px rgb(255, 99, 0) inset;
+  -webkit-box-shadow: 0px 11px 15px -11px rgb(255, 99, 0) inset;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 99, 0) transparent transparent!important;
+  transition: box-shadow .2s ease, border-color .2s ease;
+}
+
+#footer .bar-button .section:last-child span {
+    color: #FF6300;
+    text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+/* Playlist */
+
+#playlist-menu .title {
+	color:#fff;
+}
+
+#playlist-menu .menu .row .count {
+	color:rgb(255, 99, 0);
+}
+
+#playlist-menu .menu .row.selected {
+	border-left: 3px solid rgb(255, 99, 0);
+}
+
+#playlist-menu .menu .row {
+	transition:0.3s;
+}
+
+#playlist-menu .menu .row:hover {
+	color:rgb(0, 0, 0);
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-activate-button.active {
+	background: #000;
+}
+
+#media-panel .header .button {
+	background: #000;
+}
+
+#playlist-activate-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-activate-button span {
+	color:#fff;
+}
+
+#playlist-edit-button {
+	background: #000;
+}
+
+#playlist-edit-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-shuffle-button {
+	background: #000;
+}
+
+#playlist-shuffle-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-delete-button {
+	background: #000;
+}
+
+#playlist-delete-button:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-import {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-create {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-import:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-create:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.dialog {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#dialog-confirm {
+	background-color: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(0, 255, 0) !important;
+}
+
+.dialog .dialog-frame .button .submit {
+	background: #000 !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.dialog.no-submit .button.submit {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+    cursor: default !important;
+}
+
+.dialog .button.cancel {
+    background: #000000 !important;
+    color: #FFFFFF;
+}
+
+.dialog-frame .button.cancel {
+    color: #FFFFFF;
+}
+
+.dialog .button.cancel:hover {
+    background: #000000 !important;
+    color: #FFFFFF;
+}
+
+.dialog-input-background {
+    background: #000000;
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+.dialog-input-background.focused {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+.media-list .row.now-playing {
+    height: 53px;
+    border-bottom: #000000 2px solid!important;
+    background: #000000!important;
+}
+
+.media-list .row.selected {
+	background: rgba(0, 0, 0, 0.4) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.media-list .row:hover {
+	background: rgb(0, 0, 0, 0.2) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.media-list .actions {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.drag-row-line {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-create.drag-over {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-create.drag-over:hover {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#news {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#news .label {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#news .list {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.drag-media-box {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.drag-media-label {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.drag-row-line {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#playlist-button {
+    border-right: 1px solid #FF6300;
+    background: linear-gradient(to bottom,#4B2342 0,#1C0018 100%);
+    box-shadow: -11px 11px 12px -11px #FF6300 inset;
+    width: 52px;
+}
+
+#playlist-meta .bar-button, #search {
+    box-shadow: rgb(255, 99, 0) 11px 11px 12px -11px inset;
+}
+
+#playlist-meta .bar-button {
+    width: calc(100% - 53px)!important;
+}
+
+#playlist-meta {
+    border-top: 1px solid rgb(255, 99, 0);
+    box-shadow: rgb(255, 99, 0) 0px -15px 24px -17px;
+}
+
+#your-active-playlist span {
+    color: #FF6300;
+    text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+#playlist-import {
+    left: 0;
+    z-index: 50;
+    background: #000000;
+}
+
+#playlist-create {
+    right: 0;
+    z-index: 55;
+    background: #000000;
+}
+
+#playlist-panel #search-bar {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+/* App-right */
+
+.app-right .friends .header {
+	transition: 0.3s;
+}
+
+.app-right .friends .header:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.app-right .friends .list .row:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	border-radius: 10px;
+}
+
+.app-right .friends .list .row.clickable .room:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.app-right .friends .list .row.is-offline .name span {
+   color: #FFFFFF;
+}
+
+.app-right .friends .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+/* Button */
+
+.button.room.selected {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.staff.selected {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.bans.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.mutes.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.ignored.selected {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	border-bottom: 0px !important;
+}
+
+.button.cancel {
+	color: #fff !important;
+}
+
+.button.submit {
+	color: #fff !important;
+}
+
+.button.submit {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+/* User-list */
+
+#user-lists .header .button.waitlist-bans.selected {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	border-bottom: 0px !important;
+}
+
+#user-lists .list.bans .user .label {
+       color: #ff0000;
+}
+
+#user-lists .list.mutes .user .label {
+       color: #ff0000;
+}
+
+#user-lists .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+/* Header */
+
+.app-header {
+	background-color:#000;
+}
+
+.user-content .badges .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content .badges .cell {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .badges .grid .cell .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .badges .grid .cell:hover>.top  {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-inventory .badges .grid .cell.selected {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content .avatars .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-inventory .avatars .grid .cell.selected .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content .avatars .cell {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content .avatars .grid .cell .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content .avatars .cell.selected .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content .avatars .cell:hover .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .misc .grid .cell .title-bar {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .misc .grid .cell .top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .misc .grid .cell .top:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .misc .grid .cell:hover>.top {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .misc .cell:hover {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-store .misc .cell {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-menu .avatar {
+	background: #000;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+/* Now Playing Bar */
+
+#history-button {
+	transition: 0.3s;
+	background-color: #000 !important;
+}
+
+#rs-skip-button {
+	transition: 0.3s;
+	background-color: #000 !important;
+}
+
+#history-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#rs-skip-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+/* Panel Bar */
+
+#chat-button {
+	transition:0.3s;
+}
+
+#users-button {
+	transition:0.3s;
+}
+
+#waitlist-button {
+	transition:0.3s;
+}
+
+#friends-button {
+	transition:0.3s;
+}
+
+#rcs-appright-button {
+	transition:0.3s;
+}
+
+#chat-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#users-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#waitlist-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#friends-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#rcs-appright-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+/* Chat */
+
+#chat-messages {
+		font-size:12px !important;
+}
+
+.cm.log {
+	display:none !important;
+}
+
+.cm.welcome {
+	color: rgb(255, 99, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.rs-log-user-friend-join {
+	color: #00FF00 !important;
+	border-left: 3px solid #00FF00 !important;
+}
+
+.rs-log-user-leave {
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
+}
+
+#chat .rs-log-user-staff-join {
+	color: #BB01FF !important;
+	border-left: 3px solid #BB01FF !important;
+}
+
+#chat .rs-log-user-join {
+	color: #00FFFF !important;
+	border-left: 3px solid #00FFFF !important;
+}
+
+.rs-log-green {
+	color: #00FF00 !important;
+	border-left: 3px solid #00FF00 !important;
+}
+
+.rs-log-user-woot {
+	color: #00FF00 !important;
+	border-left: 3px solid #00FF00 !important;
+}
+
+.rs-log-red{
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
+}
+
+.rs-log-user-level1-join {
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
+}
+
+.rs-log-user-meh {
+	color: #FF0000 !important;
+	border-left: 3px solid #FF0000 !important;
+}
+
+.cm.moderation {
+	color: #00FF00 !important;
+}
+
+#chat .mention {
+	color: #fff !important;
+	border-left: 3px solid #fff !important;
+}
+
+#chat .emote {
+	border-left: 3px solid #FF6300 !important;
+	background: #000 !important;
+}
+
+#chat .emote .text {
+	color: #FF6300 !important;
+}
+
+#chat .rs-log-yellow {
+	color: #FFFF00 !important;
+	border-left: 3px solid #FFFF00 !important;
+}
+
+#user-rollover {
+	background:rgba(0,0,0,0.8) !important;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.thumb .background {
+	background:rgba(0,0,0,0.8) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-rollover .info .level .label {
+	color: #fff !important;
+}
+
+.action.mention {
+	transition:0.5s;
+}
+
+.action.friend {
+	transition:0.5s;
+}
+
+.action.gift {
+	transition:0.5s;
+}
+
+.action.ignore {
+	transition:0.5s;
+}
+
+.action.mod-dj {
+	transition:0.5s;
+}
+
+.action.mod-staff {
+	transition:0.5s;
+}
+
+.action.mod-mute {
+	transition:0.5s;
+}
+
+.action.mod-ban {
+	transition:0.5s;
+}
+
+.action.skip {
+	transition:0.5s;
+}
+
+.action.mod-waitlist-ban {
+	transition:0.5s;
+}
+
+.action.giftsub {
+	transition:0.5s;
+}
+
+.action.mention:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	background: transparent !important;
+}
+
+.action.friend:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	background: transparent !important;
+}
+
+.action.mod-dj:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	background: transparent !important;
+}
+
+.action.skip:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	background: transparent !important;
+}
+
+.action.gift:hover {
+	box-shadow: inset 0 0 20px rgb(255, 238, 0) !important;
+	background: transparent !important;
+}
+
+.action.mod-staff:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	background: transparent !important;
+}
+
+.action.ignore:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.action.mod-mute:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.action.mod-ban:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.actions .mod-waitlist-ban:hover {
+	box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+	background: transparent !important;
+}
+
+.action.giftsub:hover {
+	box-shadow: inset 0 0 20px rgb(255, 238, 0) !important;
+	background: transparent !important;
+}
+
+#user-rollover.can-gift .action.gift:hover {
+	box-shadow: inset 0 0 20px rgb(255, 238, 0) !important;
+	background: transparent !important;
+}
+
+/* User Menu */
+
+#user-menu .item {
+	transition:0.3s;
+}
+
+#user-menu .item:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-menu .item.selected {
+	border-left:3px solid rgb(255, 99, 0);
+}
+
+#friends-button.notify .request-count {
+  background:rgba(255, 99, 0,.4);
+  box-shadow:inset 0 0 0 1px #FF6300;
+}
+
+#user-menu .item.notify .count {
+  background:rgba(255, 99, 0,.4);
+  box-shadow:inset 0 0 0 1px #FF6300;
+}
+
+#user-friends .tab-menu button .count {
+  background:rgba(255, 99, 0,.4);
+  box-shadow:inset 0 0 0 1px #FF6300;
+}
+
+#footer-user .buttons .button.notify .count {
+  background:rgba(255, 99, 0,.4);
+  box-shadow:inset 0 0 0 1px #FF6300;
+}
+
+#user-friends .tab-menu.has-requests button .count {
+  background:rgba(255, 99, 0,.4);
+  box-shadow:inset 0 0 0 1px #FF6300;
+}
+
+/* Tab Menu */
+
+.tab-menu button {
+	background:#000;
+	transition:0.3s;
+}
+
+.tab-menu button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	background:#000;
+}
+
+.tab-menu button.selected {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.dropdown {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.dropdown dt {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.dropdown dd {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.dropdown dd .row:hover {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.jspDrag {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.jspDrag:hover {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.jspTrack .jspActive {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.jspTrack .jspHover {
+	background:#000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-friends .list .row .buttons button {
+	background:transparent;
+}
+
+#user-friends .list .row .buttons button.positive:hover {
+	background: transparent !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-friends .list .row .buttons button.negative:hover {
+	background: transparent !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-friends .list .row {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	border-radius:10px;
+}
+
+#user-friends .list .row:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#user-view .user-content {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content.profile .meta .joined {
+	color:#fff;
+}
+
+.user-content .header {
+	box-shadow:inset 0 1px 0 0 rgb(255, 99, 0);
+}
+
+.user-content .header span {
+	color:#fff;
+}
+
+.experience .xp .bar .progress {
+	background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.user-content.profile .points .subscribe-button {
+	transition:0.3s;
+	border-radius:5px;
+	background:#000;
+	box-shadow: inset 0 0 2px #FFEE00 !important;
+}
+
+.user-content.profile .points .subscribe-button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 238, 0) !important;
+	background:rgba(0,0,0,0.8) !important
+}
+
+
+.experience .levels .level.earned.ep {
+	background:#000 !important;
+}
+
+.experience .levels .level {
+	background: #000;
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+	transition:0.3s;
+}
+
+.experience .levels .level:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.experience .levels .level .label {
+	background: rgb(0, 0, 0) !important;
+        box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+.experience .levels .level .label i.icon-sunburst {
+    background: #000000;
+    width: 90px;
+    border: 2px solid #FF6300;
+    border-radius: 10px 10px 0px 0px;
+    left: -2px;
+    margin-top: -2px;
+}
+
+.experience .levels .level .value {
+    margin-top: 0px;
+}
+
+.experience .levels {
+    margin-top: 20px;
+}
+
+.experience .xp .next-level {
+    color: #FFFFFF;
+}
+
+.icon-level-avatar {
+    z-index: 1;
+}
+
+.icon-level-ep {
+    z-index: 1;
+}
+
+.icon-level-community {
+    z-index: 1;
+}
+
+.icon-level-profile {
+    z-index: 1;
+}
+
+.experience .levels .level.mystery .label span {
+	color:#eee !important;
+}
+
+#user-store .misc .grid .cell .title-bar {
+	background: #000;
+}
+
+.communities .grid .cell .bar {
+	background: #000;
+}
+
+.communities .grid .cell .meta {
+	background: #000;
+}
+
+.communities .grid .cell {
+    background: #000000;
+}
+
+.communities .grid .cell .meta .join {
+    border: 1px solid #FF6300;
+    background: #000000;
+}
+
+.communities .grid .cell .favorite {
+    background: #000000;
+}
+
+.communities .grid .cell .meta .room {
+    text-align: center;
+    color: #FF6300;
+}
+
+.communities .grid .cell .meta .host {
+    text-align: center;
+    color: #FF6300;
+}
+
+.communities .grid .cell:hover>.meta {
+    background: rgba(0, 0, 0,.9);
+}
+
+.user-content.communities .grid .cell {
+    background: #000000;
+}
+
+.user-content .grid .cell {
+    background: #000000;
+}
+
+.user-content.communities button {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: #000000;
+}
+
+.user-content.communities button:hover {
+	box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+        background: #000000;
+}
+
+/* ▬▬▬▬▬[ TRANSPARENCY ]▬▬▬▬▬ */
+
+#history-button {
+      background: transparent !important;
+}
+
+#rs-skip-button  {
+      background: transparent !important;
+}
+
+#waitlist .user {
+      background: transparent !important;
+}
+
+.badge-box {
+      background: transparent !important;
+}
+
+.thumb .background {
+      background: transparent !important;
+}
+
+#chat .cm:nth-child(2n+1) {
+      background: transparent !important;
+}
+
+#user-lists .list .user:hover {
+      background: transparent !important;
+}
+
+#user-friends .list .row {
+      background: transparent !important;
+}
+
+.app-right .friends .header {
+    background: transparent !important;
+}
+
+#user-lists .list.staff .group:first-child {
+	background:transparent;
+}
+
+.app-right {
+      background: rgba(0,0,0, 1) !important;
+}
+
+.app-right .friends {
+      background: rgba(0,0,0, 1) !important;
+}
+
+#dashboard {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer-user .menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer .info {
+      background: rgba(0,0,0,.65) !important;
+}
+
+#app-menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-rollover {
+      background: rgba(0, 0, 0, 0.65) !important;
+}
+
+#user-rollover .info {
+      background: transparent !important;
+}
+
+#room-settings-menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-menu .menu .row.selected {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-menu .item.selected {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#room-settings {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-menu {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#playlist-panel {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#app-menu .button {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+.app-header {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#chat-input {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#footer-user .back {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-menu{
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+#user-view {
+      background: rgba(0, 0, 0, 1) !important;
+}
+
+.tab-menu button:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.tab-menu button {
+    position: relative;
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    background: #000000;
+    -webkit-box-shadow: inset 1px 0 0 0 #000000;
+    -moz-box-shadow: inset 1px 0 0 0 #000000;
+    box-shadow: inset 1px 0 0 0 #000000;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+}
+
+#history-button i.icon.icon-history-white:hover {
+  -moz-transform : rotate(360deg);
+  -ms-transform : rotate(360deg);
+  -o-transform : rotate(360deg);
+  -webkit-transform : rotate(360deg);
+  transform : rotate(360deg);
+}
+
+.dropdown dd .row {
+   color: #FFFFFF;
+}
+
+#user-settings .container .item span {
+   color: #FFFFFF;
+}
+
+#user-settings .container .cap .title {
+   color: #FFFFFF;
+}
+
+#user-settings .container .cap .value {
+   color: #FFFFFF;
+}
+
+.communities .grid .cell .meta .now-playing {
+   color: #FF6300;
+}
+
+#chat-input-field {
+   color: #FF6300;
+}
+
+.communities .grid .cell .population div.guests span {
+   color: #FFFFFF;
+}
+
+#user-friends .count-box .total {
+   color: #FFFFFF;
+}
+
+#user-friends .list .row .joined {
+   color: #FFFFFF;
+}
+
+#user-friends .list .row .level .label {
+   color: #FFFFFF;
+}
+
+.dropdown dt span.level {
+   color: #FFFFFF;
+}
+
+.user-content.profile .meta .link .label {
+   color: #FFFFFF;
+}
+
+.filter-or {
+   color: #FFFFFF;
+}
+
+#youtube-input-field {
+   color: #FFFFFF;
+}
+
+#app-menu .list .rcsunload span {
+   color: #FFFFFF;
+}
+
+#app-menu .list .item span {
+   color: #FFFFFF;
+}
+
+#app-menu .list .logout span {
+   color: #FFFFFF;
+}
+
+#rs-settings .container .item span, #rcs-menu .item span {
+  color: #FFFFFF!important; 
+}
+
+.rcspdjheader span {
+  color: #FFFFFF !important; 
+}
+
+#rcs-appright-button .list.staff .group span, #rcs-menu .group span {
+  color: #FFFFFF !important;
+}
+
+#app-menu .list .rcsunload,
+#app-menu .list .logout {
+  transition:0.2s;
+  color:#fff;
+
+}
+
+#app-menu .list .rcsunload:hover {
+  background:rgba(255, 0, 0, 0.2) !important;
+  box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+}
+
+#app-menu .list .logout:hover {
+  background:rgba(255, 0, 0, 0.2) !important;
+  box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
+}
+
+.offline .thumb {
+	border-color: hsl(0, 70%, 50%) !important;
+	box-shadow: none !important;
+}
+
+.thumb.large, #user-rollover .meta.offline .thumb.large {
+	box-shadow: 0 0 15px hsl(0, 70%, 50%) !important;
+}
+
+.thumb.large, .thumb, #user-rollover .meta.offline .thumb {
+	border-color: hsl(0, 70%, 50%) !important;
+	box-shadow: 0 0 7px hsl(0, 70%, 50%) !important;
+}
+
+#user-rollover .meta.online .status span {
+   color: #FF6300;
+   margin-left: 0;
+}
+
+#user-rollover .meta.online .status i {
+   display: none;
+}
+
+#now-playing-dj .username {
+    color: #FF6300;
+    text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+#now-playing-media .bar-value, #chat .cm.scriptmsg .smsg-title {
+    color: #FF6300;
+    text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+#now-playing-media .bar-value .author, #chat .cm.scriptmsg .smsg-author {
+    color: #FF6300;
+    text-shadow: 1px 1px 8px #FF6300, -1px -1px 8px #FF6300;
+}
+
+#volume .slider .circle {
+  top: 5px;
+}
+
+#user-settings .container .cap .slider .circle {
+  top: 1px;
+}
+
+.user-content.profile .meta .blurb .box {
+    position: relative;
+    overflow: hidden;
+    padding: 7px;
+    min-width: 240px;
+    min-height: 38px;
+    max-width: 300px;
+    max-height: 38px;
+    width: 90%;
+    background: #000000;
+    cursor: pointer;
+}
+
+.subscribe-button {
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-left: 10px;
+    padding: 6px;
+    background: #000000;
+    color: #eee;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.subscribe-button span {
+    color: #FFEE00;
+}
+
+/* App-menu */
+
+.user-content.profile .points .label {
+    position: absolute;
+    top: 28px;
+    left: 45px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+#app-menu.open { 
+  background-color: #000000; 
+}
+
+#app-menu .item:hover { 
+  background: #000 !important;  
+  box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#search {
+    position: absolute;
+    top: 0;
+    left: 53px;
+    overflow-x: hidden;
+    width: 500px;
+    height: 54px;
+    background: #000000;
+    -webkit-box-shadow: inset -2px 2px 0 -1px #000000;
+    -moz-box-shadow: inset -2px 2px 0 -1px #000000;
+    box-shadow: inset -2px 2px 0 -1px #000000;
+}
+
+#app-menu .list {
+    position: absolute;
+    top: 53px;
+    left: -53px;
+    width: 180px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all .2s ease-in;
+}
+
+#chat-input {
+    background: #000000;
+    box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+    border-radius: 10px !important;
+}
+
+/* focused */
+
+.focused {
+    border-radius: 10px !important;
+    box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#filter-bar {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+#user-lists .list-header .input-background {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+#dashboard .search  {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+.dialog-input-background {
+    background: #000000;
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+.dialog-input-background.focused {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+#rcs-menu .search {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+#user-friends .search {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300 !important;
+    box-shadow: inset 0 0 0 1px #FF6300 !important;
+}
+
+#search-menu .bar-divider {
+    background: #FF6300;
+}
+
+#search-menu li:hover {
+    box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+    background: #000000;
+}
+
+.user-content.profile .notifications .row {
+    background: #000000 !important;
+    box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+}
+
+#search-menu {
+    border-color: #FF6300 !important;
+}
+
+#search-menu li {
+    border-color: #FF6300 !important;
+}
+
+.user-content.profile .meta .blurb input {
+    position: relative;
+    display: none;
+    padding: 7px;
+    min-width: 240px;
+    min-height: 38px;
+    max-width: 300px;
+    max-height: 38px;
+    width: 90%;
+    border: none;
+    background: #000000;
+    -webkit-box-shadow: inset 0 0 0 1px #FF6300;
+    -moz-box-shadow: inset 0 0 0 1px #FF6300;
+    box-shadow: inset 0 0 20px rgb(255, 99, 0) !important;
+    color: #eee;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#search {
+  background: #000 !important;  
+}
+
+#filter-bar {
+  background: #000 !important;  
+}
+
+#dashboard .search { 
+  background:  #000 !important; 
+}
+
+.slider .line, #user-settings .slider .bar {
+	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
+}
+
+#user-settings .slider .bar {
+	width: calc(100% - 1px) !important;
+}
+
+.rcsslider .bar {
+	background: linear-gradient(to right, hsl(120,100%,50%), hsl(0,100%,50%)) !important;
+}
+
+.notification {
+	background: rgba(255, 99, 0,.5);
+}
+#toast-notifications .left {
+	background: linear-gradient(135deg, rgba(255,255,255,.4), rgba(0,0,0,0)) !important;
+}
+#toast-notifications .right {
+	background: linear-gradient(rgba(255,255,255,.2), rgba(0,0,0,0)) !important;
+}
+
+.bar-divider {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 1px;
+    height: 28px;
+    background: #FF6300;
+}
+
+.communities .grid .cell .population .friends .divider {
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 24px;
+    background: #FF6300;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+.communities .grid .cell .population .guests .divider {
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 24px;
+    background: #FF6300;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+
+/* ĐejviS */
+
+#user-rollover.id-29099103 .meta:before {
+    content: 'CSS';
+    top: 112px;
+    left: 105px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #FF6300;
+    background: linear-gradient(rgba(128, 64, 0, 0.5), rgba(64, 32, 0, 0.5));
+    font-size: 10px;
+}
+
+#user-rollover.id-29099103 .meta:after {
+    content: 'Designer';
+    color: #FF6300;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+#chat .cm[data-cid^="29099103-"] .un {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#user-rollover.id-29099103 > .info > .role span:after {
+    content:'/ VIP';
+}
+
+.id-29099103 > .msg > .from.dj > .un {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#waitlist .list .user[data-uid="29099103"] .meta.is-staff .name .icon-chat-dj + span {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#user-rollover.id-29099103 > .info > .role span {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#user-rollover.id-29099103 > .meta > .username {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#user-lists .list.room .user.id-29099103 .name {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#chat .cm.message.id-29099103 {
+    border-left:  #FF6300 3px dotted !important;
+    border-right: #FF6300 3px dotted !important;
+}
+
+#chat .cm.emote.id-29099103 {
+    border-left:  #FF6300 3px dotted !important;
+    border-right: #FF6300 3px dotted !important;
+}
+
+#chat .cm.message.id-29099103:hover {
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
+}
+
+#chat .cm.emote.id-29099103:hover {
+    border-left-style:  solid !important;
+    border-right-style: solid !important;
+}
+
+.emote.id-29099103 .text {
+    color:  #FF6300 !important;
+}
+
+[data-cid^="29099103"].cm .msg .from .un  {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#user-lists .list.room .user.role-dj.id-29099103 .name {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+[data-cid^="29099103"].cm .msg .from .un {
+        font-size: 13px;
+}
+
+[data-cid^="29099103"].cm:hover .msg .from .un  {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#user-lists .list .user.role-dj.id-29099103:hover .name  {
+    color: rgb(255, 99, 0) !important;
+    text-shadow: 0px 0px 1px #FF6300, 0px 0px 5px #FF6300, 2px 2px 10px #FF6300 !important;
+}
+
+#chat [data-cid^='29099103-'] .un:after {
+    content: 'Room Designer';
+    border-style: solid;
+    border-color: #FF6300;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #FF6300;
+    font-style: normal;
+}
+
+#user-lists .list .user.id-29099103 .name:after {
+    content: 'Room Designer';
+    border-style: solid;
+    border-color: #FF6300;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #FF6300;
+    font-style: normal;
+}
+
+#user-rollover.id-29099103 .username:after {
+    content: 'Room Designer';
+    border-style: solid;
+    border-color: #FF6300;
+    border-width: 1px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+    padding: 0 2px;
+    color: #FF6300;
+    font-style: normal;
+}
