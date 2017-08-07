@@ -2504,20 +2504,6 @@ You are NOT allowed using this file without creator's permission!
   box-shadow: inset 0 0 20px rgb(255, 0, 0) !important;
 }
 
-.offline .thumb {
-	border-color: hsl(0, 70%, 50%) !important;
-	box-shadow: none !important;
-}
-
-.thumb.large, #user-rollover .meta.offline .thumb.large {
-	box-shadow: 0 0 15px hsl(0, 70%, 50%) !important;
-}
-
-.thumb.large, .thumb, #user-rollover .meta.offline .thumb {
-	border-color: hsl(0, 70%, 50%) !important;
-	box-shadow: 0 0 7px hsl(0, 70%, 50%) !important;
-}
-
 #user-rollover .meta.online .status span {
    color: #FF6300;
    margin-left: 0;
